@@ -1,0 +1,169 @@
+{
+  "sourceAnimal": {
+    "species": "Red-eyed tree frog",
+    "identity": [
+      "Compact amphibian body",
+      "Bright green coloration",
+      "Large protruding red eyes",
+      "Long slender limbs",
+      "Oversized orange adhesive toe pads",
+      "Blue and yellow side markings",
+      "Crouched resting pose"
+    ]
+  },
+
+  "targetStyle": {
+    "name": "Soft-Mechanical Designer Toy",
+    "characteristics": [
+      "Premium stylized 3D CGI",
+      "Rounded manufactured forms",
+      "Injection-molded polymer surfaces",
+      "Soft-touch dark structural components",
+      "Glossy optical eye elements",
+      "Restrained mechanical detailing",
+      "Clean product-design logic",
+      "Minimal surface noise",
+      "Studio product visualization"
+    ]
+  },
+
+  "preserve": {
+    "tierA": [
+      "Large protruding red eyes",
+      "Compact frog silhouette",
+      "Long slender limbs",
+      "Oversized adhesive toe pads",
+      "Bright green primary identity",
+      "Orange toe-pad accents"
+    ],
+
+    "tierB": [
+      "Blue and yellow side coloration",
+      "Broad flattened head",
+      "Crouched pose",
+      "Minimal visible neck"
+    ],
+
+    "tierC": [
+      "Fine skin texture",
+      "Minor wrinkles",
+      "Small biological surface details"
+    ]
+  },
+
+  "shapeTransformations": {
+    "body": "Compact rounded polymer body shell with smooth continuous surfaces and broad radii",
+    "head": "Broad continuous polymer volume integrated smoothly into the torso",
+    "eyes": "Large glossy optical lens modules mounted in rounded red accent housings",
+    "limbs": "Elongated smooth polymer segments with restrained soft mechanical joints",
+    "toePads": "Oversized rounded soft-rubber contact modules"
+  },
+
+  "surfaceTransformation": {
+    "source": "Smooth amphibian skin",
+    "target": "Clean satin injection-molded polymer",
+    "remove": [
+      "Biological pores",
+      "Wet skin micro-texture",
+      "Wrinkles",
+      "Organic surface noise"
+    ]
+  },
+
+  "colorMapping": {
+    "primary": "Bright green body shell",
+    "secondary": "Deep charcoal structural regions",
+    "eyeAccent": "Saturated red",
+    "toePadAccent": "Vivid orange",
+    "supportingColors": [
+      "Blue",
+      "Yellow"
+    ]
+  },
+
+  "materialMapping": {
+    "body": "Satin injection-molded polymer",
+    "joints": "Matte soft-touch charcoal elastomer",
+    "eyes": "Glossy smoked-black optical lenses",
+    "toePads": "Dense orange molded rubber",
+    "colorInserts": "Painted polymer"
+  },
+
+  "mechanicalDetails": {
+    "allowed": [
+      "Recessed seams",
+      "Small rounded-cone modules",
+      "Minimal inset housings",
+      "Soft joint housings",
+      "Controlled panel boundaries"
+    ],
+
+    "avoid": [
+      "Exposed wiring",
+      "Large gears",
+      "Military armor",
+      "Weapons",
+      "Heavy machinery",
+      "Cyberpunk detailing"
+    ]
+  },
+
+  "proportionRules": {
+    "preserve": [
+      "Wide frog head",
+      "Compact body",
+      "Long limbs",
+      "Large eyes",
+      "Large toe pads"
+    ],
+
+    "stylization": [
+      "Slightly enlarge the eyes if needed",
+      "Slightly simplify limb thickness",
+      "Compact the body moderately"
+    ]
+  },
+
+  "pose": "Crouched resting pose with forelimbs extended forward",
+
+  "expression": "Calm and alert",
+
+  "lighting": [
+    "Soft overhead-front studio key light",
+    "Gentle fill",
+    "Controlled broad highlights",
+    "Subtle rim light",
+    "Soft ambient occlusion",
+    "Clean contact shadow"
+  ],
+
+  "composition": {
+    "camera": "Three-quarter front view",
+    "framing": "Full body",
+    "cameraHeight": "Eye level",
+    "position": "Centered",
+    "background": "Clean warm-gray or neutral gradient"
+  },
+
+  "negativeRules": [
+    "Wrong species",
+    "Extra limbs",
+    "Missing limbs",
+    "Mammalian anatomy",
+    "Humanoid anatomy",
+    "Generic robot",
+    "Military robot",
+    "Exposed wiring",
+    "Excessive panel lines",
+    "Sharp spikes",
+    "Photorealistic wet skin",
+    "Skin pores",
+    "Random accessories",
+    "Busy background",
+    "Text",
+    "Logo",
+    "Watermark"
+  ],
+
+  "summary": "Transform the red-eyed tree frog into an original premium soft-mechanical collectible while preserving its unmistakable species identity."
+}
