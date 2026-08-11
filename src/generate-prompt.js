@@ -105,3 +105,32 @@ console.log("ANIMAL STYLE PROMPT ENGINE");
 console.log("=================================\n");
 
 console.log(finalPrompt);
+
+const outputDirectory = path.join(
+  __dirname,
+  "..",
+  "output"
+);
+
+if (!fs.existsSync(outputDirectory)) {
+  fs.mkdirSync(outputDirectory);
+}
+
+const outputPath = path.join(
+  outputDirectory,
+  "frog-soft-mechanical-prompt.md"
+);
+
+const outputContent = `# Generated Prompt
+
+${finalPrompt}
+`;
+
+fs.writeFileSync(
+  outputPath,
+  outputContent,
+  "utf8"
+);
+
+console.log("\nPrompt saved successfully:");
+console.log(outputPath);
