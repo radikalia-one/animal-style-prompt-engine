@@ -1,0 +1,248 @@
+{
+  "id": "soft-mechanical-designer-toy",
+  "name": "Soft-Mechanical Designer Toy",
+
+  "category": "Premium collectible creature design",
+
+  "summary": "A premium stylized 3D design language that rebuilds animal anatomy using rounded manufactured forms, clean polymer surfaces, soft mechanical joints, restrained industrial details, and product-visualization rendering.",
+
+  "shapeLanguage": {
+    "primaryForms": [
+      "Large rounded body masses",
+      "Compact sculptural volumes",
+      "Smooth continuous surfaces",
+      "Broad edge radii"
+    ],
+    "secondaryForms": [
+      "Soft tapered transitions",
+      "Rounded structural housings",
+      "Minimal modular inserts"
+    ],
+    "tertiaryForms": [
+      "Recessed seams",
+      "Small rounded-cone modules",
+      "Minimal vents",
+      "Small inset components"
+    ],
+    "avoid": [
+      "Sharp spikes",
+      "Aggressive angular armor",
+      "Dense geometric clutter",
+      "Thin fragile geometry"
+    ]
+  },
+
+  "volumeHierarchy": {
+    "primaryPriority": "Very high",
+    "secondaryPriority": "Medium",
+    "tertiaryPriority": "Low",
+    "rule": "Large clean primary forms must dominate the design."
+  },
+
+  "proportionPhilosophy": {
+    "body": "Compact and toy-like without destroying species proportions",
+    "head": "May be moderately enlarged when compatible with species identity",
+    "eyes": "May become more prominent but must preserve natural placement",
+    "limbs": "Preserve species-specific relative length",
+    "signatureFeatures": "Must remain visually dominant when identity-critical"
+  },
+
+  "mechanicalLanguage": {
+    "allowed": [
+      "Clean recessed seams",
+      "Soft mechanical joints",
+      "Rounded-cone modules",
+      "Minimal vents",
+      "Small structural housings",
+      "Controlled panel boundaries",
+      "Hidden fastener logic"
+    ],
+    "avoid": [
+      "Exposed wiring",
+      "Exposed gears",
+      "Hydraulic pistons",
+      "Mechanical skeleton",
+      "Military armor",
+      "Weapons",
+      "Cyberpunk clutter"
+    ]
+  },
+
+  "materials": {
+    "primaryShell": "Satin injection-molded polymer",
+    "structuralPanels": "Matte soft-touch charcoal elastomer",
+    "eyes": "Glossy smoked-black optical glass or lens-like polymer",
+    "softFeatures": "Dense molded rubber",
+    "accentParts": "Painted polymer",
+    "metal": "Restrained dark-gray metallic details only when necessary"
+  },
+
+  "surfaceTreatment": {
+    "primary": "Smooth clean manufactured surfaces",
+    "biologicalTexture": "Translate into simplified molded design language",
+    "allowedDetails": [
+      "Shallow relief",
+      "Subtle seams",
+      "Controlled panel segmentation",
+      "Small inset modules"
+    ],
+    "avoid": [
+      "Biological pores",
+      "Individual fur strands",
+      "Real feather fibers",
+      "Hyper-detailed scales",
+      "Scratches",
+      "Rust",
+      "Dirt"
+    ]
+  },
+
+  "surfaceTranslationRules": {
+    "fur": "Smooth sculptural shell or restrained color blocking",
+    "feathers": "Layered molded panels",
+    "scales": "Shallow geometric segmentation",
+    "skin": "Clean satin polymer surface",
+    "exoskeleton": "Simplified molded shell sections",
+    "shell": "Large clean manufactured shell volumes"
+  },
+
+  "colorSystem": {
+    "strategy": "Preserve identity-critical animal colors while simplifying them into controlled industrial color zones",
+    "primary": "Animal-derived dominant shell color",
+    "secondary": "Animal-derived or neutral secondary shell color",
+    "structural": "Deep charcoal or dark gray",
+    "accent": "Use natural signature colors around focal anatomical features",
+    "rules": [
+      "Use a restrained palette",
+      "Accents should frame important features",
+      "Do not distribute colors randomly",
+      "Avoid excessive rainbow palettes",
+      "Avoid uncontrolled gradients"
+    ]
+  },
+
+  "eyeSystem": {
+    "style": "Glossy optical lens construction",
+    "rules": [
+      "Preserve species-specific eye spacing",
+      "Preserve eye orientation",
+      "Preserve protrusion when identity-critical",
+      "Use sculpted accent or charcoal housings",
+      "Do not force identical eyes onto every species"
+    ]
+  },
+
+  "facialSystem": {
+    "rule": "Preserve the recognizable facial structure of the animal before applying mechanical stylization",
+    "allowedTransformations": [
+      "Polymer muzzle",
+      "Rubberized nose",
+      "Molded beak",
+      "Optical eye modules",
+      "Clean facial panel flow"
+    ],
+    "avoid": [
+      "Human facial structure",
+      "Generic cartoon smile",
+      "Generic robot face",
+      "Loss of species identity"
+    ]
+  },
+
+  "constructionLogic": {
+    "type": "Premium modular collectible toy",
+    "characteristics": [
+      "Injection-molded shell logic",
+      "Hidden or simplified joints",
+      "Clean panel intersections",
+      "Controlled part separation",
+      "Manufacturable geometry"
+    ]
+  },
+
+  "detailDensity": {
+    "overall": "Low to medium",
+    "highDetailAreas": [
+      "Face",
+      "Eyes",
+      "Major joints",
+      "Signature anatomical transitions"
+    ],
+    "lowDetailAreas": [
+      "Main torso",
+      "Large limb surfaces",
+      "Large shell areas"
+    ],
+    "rule": "Never distribute tertiary detail uniformly."
+  },
+
+  "lighting": {
+    "key": "Soft overhead-front studio key light",
+    "fill": "Gentle controlled fill",
+    "rim": "Subtle rim light",
+    "highlights": "Broad controlled highlights",
+    "shadows": "Soft contact shadows",
+    "ambientOcclusion": "Restrained"
+  },
+
+  "rendering": {
+    "style": "Premium stylized 3D CGI",
+    "presentation": "High-end collectible product visualization",
+    "surfaceQuality": "Clean and polished",
+    "reflections": "Controlled",
+    "silhouette": "Sharp and highly readable",
+    "background": "Simple studio gradient"
+  },
+
+  "composition": {
+    "defaultCamera": "Three-quarter front view",
+    "defaultFraming": "Full-body product framing",
+    "cameraHeight": "Eye level",
+    "subjectPosition": "Centered",
+    "background": "Clean neutral studio gradient"
+  },
+
+  "negativeRules": [
+    "Wrong species",
+    "Anatomy mutation",
+    "Extra limbs",
+    "Missing limbs",
+    "Humanoid anatomy",
+    "Photorealistic biological texture",
+    "Generic robot",
+    "Military robot",
+    "Mecha armor",
+    "Cyberpunk armor",
+    "Exposed wires",
+    "Exposed gears",
+    "Weapons",
+    "Excessive greebles",
+    "Sharp spikes",
+    "Rust",
+    "Dirty surfaces",
+    "Random accessories",
+    "Busy background",
+    "Text",
+    "Logo",
+    "Watermark",
+    "Direct copy of reference character"
+  ],
+
+  "priorityOrder": [
+    "Species identity",
+    "Signature silhouette",
+    "Essential anatomy",
+    "Signature features",
+    "Facial identity",
+    "Pose",
+    "Expression",
+    "Shape language",
+    "Materials",
+    "Color system",
+    "Surface treatment",
+    "Mechanical details",
+    "Lighting",
+    "Rendering",
+    "Composition"
+  ]
+}
